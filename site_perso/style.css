@@ -1,0 +1,221 @@
+body {
+    -webkit-padding-start: 0;
+    height: 100%;
+    margin: 0px;
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 200vw rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    font-family: poppins;
+}
+
+.wrapper {
+    padding: 0px 100px 0px;
+}
+
+
+/* HEADER*/
+
+header {
+    display: flex;
+    background: #262626;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+}
+
+.logo {
+    flex-grow: 1;
+    margin-left: 50px;
+    width: 30%;
+    line-height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+nav {
+    line-height: 100px;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+
+/* BOUTTON */
+
+.github {
+    position: fixed;
+    bottom: 10px;
+    z-index: 1;
+    width: 100px;
+}
+
+
+/* HOME */
+
+.myButton {
+    background-color: transparent;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 32px;
+    text-decoration: none;
+    margin-left: 605px;
+}
+
+.myButton:hover {
+    background-color: black;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.descr {
+    width: 100%;
+    height: 1100px;
+}
+
+.descr h2 {
+    margin: 0;
+    padding: 175px 190px 0;
+    font-size: 75px;
+    text-transform: uppercase;
+    color: rgb(0, 225, 169);
+}
+
+.descr .name {
+    margin: 0;
+    padding: 0 240px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.descr .student {
+    margin: 0;
+    padding: 0 335px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+/* BLOC */
+
+.bloc-area {
+    display: flex;
+    opacity: 100%;
+    width: 100%;
+    position: relative;
+    color: black;
+    background-color: #ebebeb;
+    padding-bottom: 200px;
+}
+
+.bloc-area h2 {
+    margin: 0;
+    padding-top: 100px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(30, 32, 32);
+}
+
+.bloc-area p {
+    line-height: 30px;
+}
+
+
+/* TEST */
+
+.bloc-test {
+    display: flex;
+}
+
+.colonne-gauche {
+    order: 3;
+    padding: 0px 20px 0px;
+    margin: 50px;
+    width: 500px;
+    background: #ebebeb;
+}
+
+.colonne-centre {
+    order: 2;
+    flex-grow: 1;
+    margin: 75px 0 75px;
+    width: 100%;
+    background-image: url(images/background2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.colonne-droite {
+    order: 1;
+    justify-self: center;
+    margin: 50px;
+    padding: 0px 20px 0px;
+    width: 500px;
+    background: #ebebeb;
+}
+
+
+/* WORKS */
+
+.works {
+    padding-bottom: 200px;
+    margin: 0;
+    background: #ebebeb;
+    height: 100%;
+}
+
+.works h2 {
+    margin: 0;
+    padding-top: 100px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(30, 32, 32);
+}
+
+.works p {
+    margin-bottom: 0;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    background: #262626;
+    height: 100%;
+    color: white;
+}
+
+.logofooter,
+.email,
+.follow {
+    flex: 1;
+}
+
+footer hr {
+    width: 95%;
+    margin-top: 50px;
+}
